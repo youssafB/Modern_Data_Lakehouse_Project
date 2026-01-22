@@ -79,6 +79,22 @@ The solution is fully automated via **Databricks Workflows**, ensuring a reliabl
 4.  **Monitoring:** Execute the job and monitor the run via the Databricks Jobs UI to verify schema evolution and data integrity.
 
 ---
+## 🛠️ Technologies & Tools
+
+| Component | Technology |
+|-----------|-----------|
+| **Platform** | Databricks (AWS/Azure) |
+| **Storage** | Delta Lake (ACID transactions) |
+| **Processing** | Apache Spark (PySpark) |
+| **Orchestration** | Databricks Jobs |
+| **Catalog** | Unity Catalog |
+| **Version Control** | Git (GitHub integration) |
+| **Data Modeling** | Star Schema (Kimball) |
+
+
+
+---
+
 
 ## 📈 Future Roadmap
 - [ ] **Slowly Changing Dimensions (SCD Type 2):** Implement historical tracking for `dim_customers` to maintain point-in-time accuracy for reporting.
