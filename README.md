@@ -14,7 +14,8 @@ The pipeline follows a multi-layered approach to ensure data integrity and scala
 * **🥈 Silver (Curated/Cleaned):** Data deduplication, standardization of date formats, and business logic normalization (**PySpark/SQL**).
 * **🥇Gold (Analytical/Aggregated):** Dimensional modeling (**Star Schema**) optimized for BI tools (PowerBI/Tableau) and advanced analytics.
 
-> **📸 Visual Suggestion:** Insert a Draw.io diagram here showing: `[CSV Sources] -> [Bronze Volume] -> [Silver Tables] -> [Gold Fact/Dim]`. Use icons for Databricks and Unity Catalog.
+📄 [View Architecture Diagram](docs/architecture.drawio.pdf)
+
 
 ---
 
