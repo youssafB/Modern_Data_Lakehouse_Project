@@ -1,4 +1,6 @@
-# 🚀 Bike Data Lakehouse: End-to-End Medallion Architecture
+# 
+<img width="942" height="576" alt="image" src="https://github.com/user-attachments/assets/ecbfb380-b184-4915-9f35-ddf03ea59c9e" />
+ Bike Data Lakehouse: End-to-End Medallion Architecture
 
 ## 📌 Executive Summary
 This project demonstrates the implementation of a modern **Data Lakehouse** using the **Medallion Architecture**. By leveraging **Databricks** and **Unity Catalog**, I transformed raw, siloed ERP and CRM data into a high-performance, business-ready Star Schema.
