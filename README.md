@@ -26,8 +26,22 @@ The pipeline follows a multi-layered approach to ensure data integrity and scala
 
 ---
 
+
+
+## 🔍 Data Modeling & Intelligence (Gold Layer)
+The final layer transitions from source-aligned data to a **Star Schema** (Dimensional Model). This design decouples the analytics layer from the source system logic, providing a high-performance environment for Business Intelligence and Data Science.
+
+* **Fact Tables:** `fact_sales` (Grain: Individual Transaction). Captures business events and quantitative metrics.
+* **Dimension Tables:** `dim_customers`, `dim_products`, `dim_stores`. Provides descriptive context for slicing and dicing metrics.
+* **Data Products:** Implemented table and column-level documentation in **Unity Catalog** to ensure the data is "discoverable" and "self-service" ready for analysts.
+
+> **📸 Visual Suggestion:** 
+*Insert a screenshot of your Gold Layer ER Diagram showing the Fact table at the center connected to your Dimension tables.*
+
+---
+
 ## 📂 Project Structure
-```text
+```bach
 .
 ├── datasets/
 ├── code/
@@ -54,23 +68,6 @@ The pipeline follows a multi-layered approach to ensure data integrity and scala
 ├── .gitignore
 └── README.md
 ```
----
-
-
-
-
-
-## 🔍 Data Modeling & Intelligence (Gold Layer)
-The final layer transitions from source-aligned data to a **Star Schema** (Dimensional Model). This design decouples the analytics layer from the source system logic, providing a high-performance environment for Business Intelligence and Data Science.
-
-* **Fact Tables:** `fact_sales` (Grain: Individual Transaction). Captures business events and quantitative metrics.
-* **Dimension Tables:** `dim_customers`, `dim_products`, `dim_stores`. Provides descriptive context for slicing and dicing metrics.
-* **Data Products:** Implemented table and column-level documentation in **Unity Catalog** to ensure the data is "discoverable" and "self-service" ready for analysts.
-
-> **📸 Visual Suggestion:** 
-*Insert a screenshot of your Gold Layer ER Diagram showing the Fact table at the center connected to your Dimension tables.*
-
----
 
 ## 🚀 Deployment & Execution
 The solution is fully automated via **Databricks Workflows**, ensuring a reliable end-to-end data lifecycle.
