@@ -35,8 +35,10 @@ The pipeline follows a multi-layered approach to ensure data integrity and scala
 ├── gold/                  # Dimensional modeling (Star Schema)
 ├── orchestration/         # Notebooks to trigger layers
 └── docs/                  # Architecture diagrams & Data Dictionary
-
+```
 ---
+
+
 
 
 
