@@ -35,8 +35,8 @@ The final layer transitions from source-aligned data to a **Star Schema** (Dimen
 * **Dimension Tables:** `dim_customers`, `dim_products`, `dim_stores`. Provides descriptive context for slicing and dicing metrics.
 * **Data Products:** Implemented table and column-level documentation in **Unity Catalog** to ensure the data is "discoverable" and "self-service" ready for analysts.
 
-> **📸 Visual Suggestion:** 
-*Insert a screenshot of your Gold Layer ER Diagram showing the Fact table at the center connected to your Dimension tables.*
+![Data Lakehouse Architecture](docs/model.png)
+
 
 ---
 
