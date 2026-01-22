@@ -14,8 +14,7 @@ The pipeline follows a multi-layered approach to ensure data integrity and scala
 * **🥈 Silver (Curated/Cleaned):** Data deduplication, standardization of date formats, and business logic normalization (**PySpark/SQL**).
 * **🥇Gold (Analytical/Aggregated):** Dimensional modeling (**Star Schema**) optimized for BI tools (PowerBI/Tableau) and advanced analytics.
 
-📄 [View Architecture Diagram](docs/data_Lakehouse.drawio (1).svg)
-
+![Data Lakehouse Architecture](docs/data_Lakehouse.drawio%20(1).svg)
 
 ---
 
