@@ -10,9 +10,9 @@ The goal was to solve typical data engineering challenges: data silos, poor data
 ## 🏗️ System Architecture
 The pipeline follows a multi-layered approach to ensure data integrity and scalability:
 
-* **Bronze (Raw/Ingestion):** Direct ingestion of source CSVs into Delta tables (Schema-on-read, maintaining original state).
-* **Silver (Curated/Cleaned):** Data deduplication, standardization of date formats, and business logic normalization (**PySpark/SQL**).
-* **Gold (Analytical/Aggregated):** Dimensional modeling (**Star Schema**) optimized for BI tools (PowerBI/Tableau) and advanced analytics.
+* **🥉Bronze (Raw/Ingestion):** Direct ingestion of source CSVs into Delta tables (Schema-on-read, maintaining original state).
+* **🥈 Silver (Curated/Cleaned):** Data deduplication, standardization of date formats, and business logic normalization (**PySpark/SQL**).
+* **🥇Gold (Analytical/Aggregated):** Dimensional modeling (**Star Schema**) optimized for BI tools (PowerBI/Tableau) and advanced analytics.
 
 > **📸 Visual Suggestion:** Insert a Draw.io diagram here showing: `[CSV Sources] -> [Bronze Volume] -> [Silver Tables] -> [Gold Fact/Dim]`. Use icons for Databricks and Unity Catalog.
 
