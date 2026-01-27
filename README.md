@@ -108,6 +108,12 @@ The diagram below shows the data lineage for our data Lakehouse. It helps to und
 | **Data Modeling** | Star Schema |
 
 ---
+## Pipeline Orchestration
+
+* Orchestration is implemented using Databricks orchestration notebooks with dbutils.notebook.run to execute dependent notebooks sequentially.
+* The overall workflow is scheduled and managed using a Databricks Job, which defines the tasks and controls pipeline execution.
+
+
 
 
 ## 📈 Future Improvements
