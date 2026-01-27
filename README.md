@@ -50,7 +50,7 @@ Based on this understanding of the source model and business domains, we designe
 * **Dimension Tables:** `dim_customers`, `dim_products`. Provides descriptive context for slicing and dicing metrics.
 
 
-![Data Lakehouse Architecture](docs/data_model.png)
+![Data Lakehouse Architecture](docs/data_model.PNG)
 
 
 ---
