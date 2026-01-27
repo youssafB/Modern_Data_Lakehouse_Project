@@ -122,10 +122,9 @@ The solution is fully automated via **Databricks Workflows**, ensuring a reliabl
 
 ## 📈 Future Roadmap
 - [ ] **Slowly Changing Dimensions (SCD Type 2):** Implement historical tracking for `dim_customers` to maintain point-in-time accuracy for reporting.
-- [ ] **Automated Data Quality:** Integrate **Great Expectations** or Databricks **Delta Live Tables (DLT)** for circuit-breaker quality checks.
 - [ ] **CI/CD Integration:** Automate deployment using **GitHub Actions** and **Databricks Asset Bundles (DABs)** for a true production-grade DevOps lifecycle.
 - [ ] **New data sources** APIs, Kafka, streaming data, and operational databases
 
 
 ## 👨‍💻 Author
-[Youssef Bouraha] Data Scientist | Data Engineer [LinkedIn Profile] | [Portfolio Website]
+[Youssef Bouraha] Data Scientist | Data Engineer 
