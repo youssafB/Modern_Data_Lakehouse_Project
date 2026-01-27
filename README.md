@@ -58,7 +58,7 @@ Based on this understanding of the source model and business domains, we designe
 ## Data Flow 
 
 
-![Data Lakehouse Architecture](docs/data_flow.PNG)
+![Data Lakehouse Architecture](docs/data_flow.png)
 
 --- 
 
