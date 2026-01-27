@@ -91,16 +91,7 @@ The diagram below shows the data lineage for our data Lakehouse. It helps to und
 ├── doc/
 ├── .gitignore
 └── README.md
-```
 
-## 🚀 Deployment & Execution
-The solution is fully automated via **Databricks Workflows**, ensuring a reliable end-to-end data lifecycle.
-
-1.  **Environment Setup:** Configure **Unity Catalog** by creating the three-tier namespace: `bronze`, `silver`, and `gold`.
-2.  **Data Ingestion:** Upload source CSV files into the `raw_sources` Volume within the Bronze schema.
-3.  **Pipeline Orchestration:** * Deploy the `orchestration` notebooks to manage task dependencies.
-    * Configure a **Databricks Job** (`loading_bike_data_lakehouse`) with task-level retries and cluster scaling.
-4.  **Monitoring:** Execute the job and monitor the run via the Databricks Jobs UI to verify schema evolution and data integrity.
 
 ---
 ## 🛠️ Technologies & Tools
@@ -113,8 +104,7 @@ The solution is fully automated via **Databricks Workflows**, ensuring a reliabl
 | **Orchestration** | Databricks Jobs |
 | **Catalog** | Unity Catalog |
 | **Version Control** | Git (GitHub integration) |
-| **Data Modeling** | Star Schema (Kimball) |
-
+| **Data Modeling** | Star Schema |
 
 
 ---
