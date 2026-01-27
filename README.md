@@ -1,9 +1,10 @@
 # 🚲 Bike Data Lakehouse: End-to-End Medallion Architecture
 
 ## 📌 Executive Summary
-This project demonstrates the implementation of a modern **Data Lakehouse** using the **Medallion Architecture**. By leveraging **Databricks** and **Unity Catalog**, I transformed raw, siloed ERP and CRM data into a high-performance, business-ready Star Schema.
 
-The goal was to solve typical data engineering challenges: data silos, poor data quality, and lack of historical traceability.
+I built a data lakehouse on Databricks that transforms raw ERP and CRM data into clean, analytics-ready tables. The project uses the Medallion Architecture ( Bronze → Silver → Gold layers) with Delta Lake, PySpark, and Unity Catalog to handle data quality, governance, and historical tracking.
+
+**Tech:** Databricks, Delta Lake, PySpark,SQL, Python, Unity Catalog, Databricks Workflows
 
 ---
 
