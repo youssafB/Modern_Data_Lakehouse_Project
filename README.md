@@ -92,7 +92,7 @@ The diagram below shows the data lineage for our data Lakehouse. It helps to und
 ├── doc/
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 ## 🛠️ Technologies & Tools
