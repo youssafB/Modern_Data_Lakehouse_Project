@@ -106,7 +106,6 @@ The diagram below shows the data lineage for our data Lakehouse. It helps to und
 | **Catalog** | Unity Catalog |
 | **Version Control** | Git (GitHub integration) |
 | **Data Modeling** | Star Schema |
-```
 
 ---
 
