@@ -35,6 +35,9 @@ The final layer transitions from source-aligned data to a **Star Schema** (Dimen
 * **Dimension Tables:** `dim_customers`, `dim_products`, `dim_stores`. Provides descriptive context for slicing and dicing metrics.
 * **Data Products:** Implemented table and column-level documentation in **Unity Catalog** to ensure the data is "discoverable" and "self-service" ready for analysts.
 
+
+![Data Lakehouse Architecture](docs/integration_model.png)
+
 ![Data Lakehouse Architecture](docs/model.png)
 
 
