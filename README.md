@@ -120,10 +120,10 @@ The solution is fully automated via **Databricks Workflows**, ensuring a reliabl
 ---
 
 
-## 📈 Future Roadmap
-- [ ] **Slowly Changing Dimensions (SCD Type 2):** Implement historical tracking for `dim_customers` to maintain point-in-time accuracy for reporting.
+## 📈 Future Improvements
 - [ ] **CI/CD Integration:** Automate deployment using **GitHub Actions** and **Databricks Asset Bundles (DABs)** for a true production-grade DevOps lifecycle.
 - [ ] **New data sources** APIs, Kafka, streaming data, and operational databases
+- [ ] - **Security and governance** : Access control, row-level security, and data masking
 
 
 ## 👨‍💻 Author
