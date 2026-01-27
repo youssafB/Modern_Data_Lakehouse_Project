@@ -113,6 +113,7 @@ The diagram below shows the data lineage for our data Lakehouse. It helps to und
 * Orchestration is implemented using Databricks orchestration notebooks with dbutils.notebook.run to execute dependent notebooks sequentially.
 * The overall workflow is scheduled and managed using a Databricks Job, which defines the tasks and controls pipeline execution.
 
+![Data Lakehouse Architecture](docs/workflow.png)
 
 
 
