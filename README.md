@@ -56,6 +56,7 @@ Based on this understanding of the source model and business domains, we designe
 ---
 
 ## Data Flow 
+The diagram below illustrates how data moves from sources through the Bronze and Silver layers to the final Gold tables. It helps understand transformations, relationships, and can aid in troubleshooting or improving the pipeline.
 
 
 ![Data Lakehouse Architecture](docs/data_flow.png)
