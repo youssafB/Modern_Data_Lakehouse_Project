@@ -31,12 +31,24 @@ The pipeline follows a multi-layered approach to ensure data integrity and scala
 ## 🔍 Data Modeling & Intelligence (Gold Layer)
 The final layer transitions from source-aligned data to a **Star Schema** (Dimensional Model). This design decouples the analytics layer from the source system logic, providing a high-performance environment for Business Intelligence and Data Science.
 
-* **Fact Tables:** `fact_sales` (Grain: Individual Transaction). Captures business events and quantitative metrics.
-* **Dimension Tables:** `dim_customers`, `dim_products`, `dim_stores`. Provides descriptive context for slicing and dicing metrics.
-* **Data Products:** Implemented table and column-level documentation in **Unity Catalog** to ensure the data is "discoverable" and "self-service" ready for analysts.
+However, before building a new data model, we must first understand the original data model:
+* What are the main business objects?
+* How are these objects related to each other?
+* 
+By clearly analyzing the initial data model, we can identify three primary domains for the new dimensional model:
+* Sales
+* Product
+* Customer
 
-
+These domains will serve as the core labels (or subject areas) for designing the new star schema.
 ![Data Lakehouse Architecture](docs/integration_model.png)
+
+
+Based on this understanding of the source model and business domains, we designed the Gold Layer using a dimensional modeling approach. The resulting model consists of:
+
+* **Fact Tables:** `fact_sales` (Grain: Individual Transaction). Captures business events and quantitative metrics.
+* **Dimension Tables:** `dim_customers`, `dim_products`. Provides descriptive context for slicing and dicing metrics.
+
 
 ![Data Lakehouse Architecture](docs/model.png)
 
